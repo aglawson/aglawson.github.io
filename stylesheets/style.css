@@ -10,3 +10,11 @@ html{
     background-size: 100%;
     background-repeat: repeat-y;
 }
+
+.about{
+    background-color: rgb(114, 145, 121);
+    align-self: left;
+    font-size: 200%;
+    color: white;
+    background-size: cover;
+}
