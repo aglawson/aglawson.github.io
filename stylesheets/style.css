@@ -62,6 +62,7 @@ html{
   flex-direction: row;
   justify-content: space-evenly;
   font-family: sans-serif;
+  margin-left: -5%;
 }
 
 .resume-img{
