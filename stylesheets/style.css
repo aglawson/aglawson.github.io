@@ -23,13 +23,9 @@
     font-family: sans-serif;
     color: black;
 }
-.resume{
-    font-family: sans-serif;
-    color: black;
-  }
+
 .al{
-    flex: 0 1 auto;
-    font-size: 100px;
+    font-size: 4pc;
     text-align: center;
     background-color:rgb(0, 0, 0);
     color: white;
@@ -37,30 +33,74 @@
     padding-top: 0;
     margin-bottom: 0;
     font-family: lakeshore;
-    width: 75%;
-    margin-left: 12.5%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 html{
     background-image: url(https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-size: 100%;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
 }
 
 .about{
     display: flex;
     flex-direction: column; 
-    background-color: rgb(255, 255, 255);
-    width: 75%;
-    font-size: 2pc;
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    font-size: 1.5pc;
+    color: rgb(255, 255, 255);
     margin-top: 0;
     padding-top: 0;
     text-align: center;
     margin-bottom: 0;
-    margin-left: 12.5%;
-
+    margin-left: 25%;
+    
     font-family: sans-serif;
     
 }
 
+.links{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: sans-serif;
+}
+
+.resume-img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.resume{
+  display: block;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.portfolio-img{
+  display: block;
+}
+
+.portfolio{
+  display: block;
+}
+
+.git-img{
+  display: block;
+}
+
+.git-text{
+  color: black;
+  background-color: white;
+}
+
+.linkslist{
+  background-color: white;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -.8%;  
+}

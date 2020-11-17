@@ -129,11 +129,12 @@
     border-color: white;
 }
   .detail-image-title {
-    position: absolute;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     bottom: -1em;
     left: 5em;
-    font-family: airstreamregular;
+    font-family: sans-serif;
     color: white;
     font-size: 4em;
   }
