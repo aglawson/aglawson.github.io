@@ -19,10 +19,7 @@
     font-weight: normal;
     font-style: normal;
   }
-.email{
-    font-family: sans-serif;
-    color: black;
-}
+
 
 .al{
     font-size: 4pc;
@@ -74,10 +71,12 @@ html{
 }
 
 .resume{
-  display: block;
-  text-align: center;
+  font-size: 1.5pc;
   color: black;
-  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: airstreamregular;
+  margin-left: -15%;
 }
 
 .portfolio-img{
@@ -95,11 +94,36 @@ html{
 .git-text{
   color: black;
   background-color: white;
+  text-decoration: none;
+  font-family: airstreamregular;
+  font-size: 1.5pc;
+
+
 }
 
 .linkslist{
+  padding-top: .1%;
+  padding-bottom: .1%;
   background-color: white;
   width: 50%;
   margin-left: 25%;
-  margin-top: -.8%;  
+  margin-top: -.1%;  
+}
+
+.email{
+  font-family: airstreamregular;
+  color: black;
+  padding-left: 5%;
+  text-decoration: none;
+  font-size: 1.5pc;
+
+}
+
+.linkedin{
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: airstreamregular;
+  font-size: 1.5pc;
+  margin-left: -15%;
 }
