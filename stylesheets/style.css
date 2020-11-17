@@ -24,21 +24,33 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+.frame{
+  width: 50%;
+  height: 75%;
+  margin-left: 25%;
+  padding-bottom: 25%;
+  padding-top: 2%;
+  margin-top: 7%;
+}
 .al{
-  text-decoration: none;
-    font-size: 5pc;
+    text-decoration: none;
     height: 20%;
-    text-align: center;
-    background-color:rgb(0, 0, 0);
-    color: white;
-    margin-top: 2%;
+    color: rgb(255, 255, 255);
+    margin-top: -47%;
     padding-top: 0;
     margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;  
-    margin-left: 25%;
-
+    margin-left: 0%;
+    
     animation: animated-text 2s steps(29,end) 1s 1 normal both,
-    animated-cursor 1s steps(29,end) infinite;
+    animated-cursor 600ms steps(29,end) infinite;
+
+  border-right: solid 10px rgb(255, 255, 255);
+  white-space: nowrap;
+  overflow: hidden;    
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  background: none;
 }
 
 html{
@@ -50,18 +62,45 @@ html{
 .about{
     display: flex;
     flex-direction: column; 
-    background-color: rgb(0, 0, 0);
-    width: 50%;
+    width: 80%;
     font-size: 1.5pc;
     color: rgb(255, 255, 255);
     margin-top: 0;
     padding-top: 0;
-    text-align: center;
     margin-bottom: 0;
-    font-family: 'Source Code Pro', monospace;  
-    margin-left: 25%;   
+    font-family: 'Courier New', Courier, monospace;  
+    margin-left: 0;
+    justify-content: space-between;  
+  
 }
+.about2{
+  display: flex;
+  flex-direction: column; 
+  width: 80%;
+  font-size: 1.5pc;
+  color: rgb(255, 255, 255);
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;  
+  margin-left: 0;
+  justify-content: space-between;  
 
+}
+.about3{
+  display: flex;
+  flex-direction: column; 
+  width: 80%;
+  font-size: 1.5pc;
+  color: rgb(255, 255, 255);
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;  
+  margin-left: 0;
+  justify-content: space-between;  
+
+}
 .links{
   list-style-type: none;
   display: flex;
@@ -113,7 +152,7 @@ html{
   background-color: white;
   width: 50%;
   margin-left: 25%;
-  margin-top: -.1%;  
+  margin-top: -40%;
 }
 
 .email{
@@ -137,26 +176,73 @@ html{
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
 
-
-.al {
-  border-right: solid 3px rgb(255, 255, 255);
-  white-space: nowrap;
-  overflow: hidden;    
-  font-family: 'Source Code Pro', monospace;  
-  font-size: 28px;
-  color: rgb(255, 255, 255);
-}
-
 /* Animation */
-p {
-  animation: animated-text 4s steps(29,end) 1s 1 normal both,
+.about {
+  padding-top: 2%;
+  animation: animated-about 2s steps(29,end) 1s 1 normal both,
   animated-cursor 600ms steps(29,end) infinite;
+  animation-delay: 3s;
+  white-space: nowrap;
+  overflow: hidden; 
 }
 
+.about2{
+  padding-top: 2%;
+  animation: animated-about2 2s steps(29,end) 1s 1 normal both,
+  animated-cursor 600ms steps(29,end) infinite;
+  animation-delay: 6s;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+.about3{
+  padding-top: 2%;
+  animation: animated-about3 2s steps(29,end) 1s 1 normal both,
+  animated-cursor 600ms steps(29,end) infinite;
+  animation-delay: 9s;
+
+  white-space: nowrap;
+  overflow: hidden;
+}
+.about4 {
+
+  display: flex;
+  flex-direction: column; 
+  width: 80%;
+  font-size: 1.5pc;
+  color: rgb(255, 255, 255);
+  margin-top: 0;
+  padding-top: 2%;
+  margin-bottom: 0;
+  font-family: 'Courier New', Courier, monospace;  
+  margin-left: 0;
+  justify-content: space-between;  
+  animation: animated-about4 2s steps(29,end) 1s 1 normal both,
+  animated-cursor 600ms steps(29,end) infinite;
+  animation-delay: 13s;
+  white-space: nowrap;
+  overflow: hidden; 
+}
+@keyframes animated-about4{
+  from{width: 0;}
+  to{width: 80%;}
+}
+@keyframes animated-about3{
+  from{width: 0;}
+  to{width: 80%;}
+}
+@keyframes animated-about2{
+  from{width: 0;}
+  to{width: 80%;}
+}
+@keyframes animated-about{
+  from{width: 0;}
+  to{width: 80%;}
+}
 /* text animation */
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 15%;}
+  to{width: 80%;}
 }
 
 /* cursor animations */
