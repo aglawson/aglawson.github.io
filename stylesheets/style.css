@@ -38,7 +38,7 @@
     margin-left: 25%;
 
     animation: animated-text 2s steps(29,end) 1s 1 normal both,
-    animated-cursor 600ms steps(29,end) infinite;
+    animated-cursor 1s steps(29,end) infinite;
 }
 
 html{
