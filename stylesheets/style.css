@@ -37,7 +37,7 @@
     font-family: 'Courier New', Courier, monospace;  
     margin-left: 25%;
 
-    animation: animated-text 1s steps(29,end) 1s 1 normal both,
+    animation: animated-text 2s steps(29,end) 1s 1 normal both,
     animated-cursor 600ms steps(29,end) infinite;
 }
 
@@ -155,8 +155,8 @@ p {
 
 /* text animation */
 @keyframes animated-text{
-  from{width: 0;}
-  to{width: 15%;}
+  from{width: 0; overflow: hidden;}
+  to{width: 15%; overflow: visible;}
 }
 
 /* cursor animations */
