@@ -155,8 +155,8 @@ p {
 
 /* text animation */
 @keyframes animated-text{
-  from{width: 0; overflow: hidden;}
-  to{width: 15%; overflow: visible;}
+  from{width: 0;}
+  to{width: 15%;}
 }
 
 /* cursor animations */
