@@ -37,7 +37,6 @@
     color: rgb(255, 255, 255);
     margin-top: -80%;
     padding-top: -35%;
-    margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;  
     margin-left: 0%;
     
@@ -61,6 +60,8 @@ html{
 .about{
     display: flex;
     flex-direction: column; 
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 100%;
     font-size: 1pc;
     color: rgb(255, 255, 255);
