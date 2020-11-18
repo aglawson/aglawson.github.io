@@ -99,7 +99,7 @@ html{
   margin-left: 25%;
   margin-top: 2%;
   width: 45.7%;
-
+  padding-left: 0;
 }
 
 .resume-img{
@@ -157,10 +157,11 @@ html{
 
 .linkedin{
   text-decoration: none;
-  text-align: center;
+  text-align: left;
   color: black;
   font-family: airstreamregular;
   font-size: 1.5pc;
+
 }
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
