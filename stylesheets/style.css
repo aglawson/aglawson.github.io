@@ -25,24 +25,17 @@
 }
 
 .frame{
-  width: 20%;
-  height: 75%;
+  width: 100%;
   margin-top: 7%;
-  margin-left: 20%;
-  padding-bottom: -45%;
+  margin-left: 25%;
+  
 }
 .al{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-top: -80%;
-    padding-top: -35%;
     font-family: 'Courier New', Courier, monospace;  
     margin-left: 0%;
-    
-    animation: animated-text 2s steps(29,end) 1s 1 normal both,
-    animated-cursor 600ms steps(29,end) infinite;
-
-  border-right: solid 10px rgb(255, 255, 255);
+    margin-top: -23%;
+    animation: animated-text 2s steps(29,end) 1s 1 normal;
   white-space: nowrap;
   overflow: hidden;    
   font-size: 1pc;
@@ -61,10 +54,10 @@ html{
     flex-direction: column; 
     padding-top: 1%;
     padding-bottom: 1%;
-    width: 100%;
+    width: 200%;
     font-size: 1pc;
     color: rgb(255, 255, 255);
-    margin-top: 0;
+    margin-top: 1%;
     padding-top: 0;
     margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;  
@@ -75,7 +68,7 @@ html{
 .about2{
   display: flex;
   flex-direction: column; 
-  width: 100%;
+  width: 200%;
   font-size: 1pc;
   color: rgb(255, 255, 255);
   margin-top: 0;
@@ -92,7 +85,7 @@ html{
   width: 100%;
   font-size: 1pc;
   color: rgb(255, 255, 255);
-  margin-top: 0;
+  margin-top: 1%;
   padding-top: 0;
   margin-bottom: 0;
   font-family: 'Courier New', Courier, monospace;  
@@ -104,7 +97,7 @@ html{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .resume-img{
@@ -149,7 +142,9 @@ html{
   padding-bottom: .1%;
   background-color: white;
   width: 40%;
-  margin-left: 3%;
+  margin-top: -17%;
+  padding-left: -3%;
+  margin-left: 4%;
 }
 
 .email{
@@ -167,7 +162,6 @@ html{
   color: black;
   font-family: airstreamregular;
   font-size: 1.5pc;
-  margin-left: -15%;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
@@ -205,7 +199,7 @@ html{
   width: 100%;
   font-size: 1pc;
   color: rgb(255, 255, 255);
-  margin-top: 0;
+  margin-top: 1%;
   margin-bottom: 0;
   font-family: 'Courier New', Courier, monospace;  
   margin-left: 0;
@@ -218,28 +212,28 @@ html{
 }
 @keyframes animated-about4{
   from{width: 0;}
-  to{width: 100%;}
+  to{width: 50%;}
 }
 @keyframes animated-about3{
   from{width: 0;}
-  to{width: 100%;}
+  to{width: 50%;}
 }
 @keyframes animated-about2{
   from{width: 0;}
-  to{width: 100%;}
+  to{width: 50%;}
 }
 @keyframes animated-about{
   from{width: 0;}
-  to{width: 100%;}
+  to{width: 50%;}
 }
 /* text animation */
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 100%;}
+  to{width: 50%;}
 }
 
 /* cursor animations */
-@keyframes animated-cursor{
+/* @keyframes animated-cursor{
   from{border-right-color: rgb(255, 255, 255);}
   to{border-right-color: transparent;}
-}
+} */
