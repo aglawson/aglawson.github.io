@@ -34,7 +34,7 @@
 .al{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin-top: -60%;
+    margin-top: -80%;
     padding-top: 0;
     margin-bottom: 0;
     font-family: 'Courier New', Courier, monospace;  
@@ -218,24 +218,24 @@ html{
 }
 @keyframes animated-about4{
   from{width: 0;}
-  to{width: 80%;}
+  to{width: 100%;}
 }
 @keyframes animated-about3{
   from{width: 0;}
-  to{width: 80%;}
+  to{width: 100%;}
 }
 @keyframes animated-about2{
   from{width: 0;}
-  to{width: 80%;}
+  to{width: 100%;}
 }
 @keyframes animated-about{
   from{width: 0;}
-  to{width: 80%;}
+  to{width: 100%;}
 }
 /* text animation */
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 80%;}
+  to{width: 100%;}
 }
 
 /* cursor animations */
