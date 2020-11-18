@@ -20,26 +20,28 @@
     font-style: normal;
   }
 
-.title{
-  font-family: 'Times New Roman', Times, serif;
-}
-
 .frame{
-  width: 100%;
-  margin-top: 0%;
-  margin-left: 18%;
+  width: 38%;
+  margin-top: -5%;
+  margin-left: 25%;
+  background-repeat: no-repeat;
+  background-color: black;
+  
 }
 .al{
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;  
+    font-family: lakeshore;  
     margin-left: 0%;
-    margin-top: -15%;
+    margin-top: 15%;
     animation: animated-text 2s steps(29,end) 1s 1 normal;
   white-space: nowrap;
-  overflow: hidden;    
+  overflow: hidden;
   font-size: 1pc;
-  color: rgb(255, 255, 255);
+  color: rgb(165, 221, 151);
   background: none;
+  height: 50%;
+  padding-top: 2%;
+  padding-left: 33%;
 }
 
 html{
@@ -49,48 +51,42 @@ html{
 }
 
 .about{
-    display: flex;
-    flex-direction: column; 
-    padding-top: 1%;
-    padding-bottom: 1%;
+  padding-top: 1%;
+  padding-left: 25%;
     width: 200%;
     font-size: 1pc;
-    color: rgb(255, 255, 255);
+    color: rgb(165, 221, 151);
     margin-top: 1%;
-    padding-top: 0;
     margin-bottom: 0;
-    font-family: 'Courier New', Courier, monospace;  
+    font-family: lakeshore;  
     margin-left: 0;
     justify-content: space-between;  
   
 }
 .about2{
-  display: flex;
-  flex-direction: column; 
+  padding-top: 1%;
+  padding-left: 25%;
   width: 200%;
   font-size: 1pc;
-  color: rgb(255, 255, 255);
+  color: rgb(165, 221, 151);
   margin-top: 0;
-  padding-top: 0;
   margin-bottom: 0;
-  font-family: 'Courier New', Courier, monospace;  
+  font-family: lakeshore;  
   margin-left: 0;
   justify-content: space-between;  
 
 }
-.about3{
-  display: flex;
-  flex-direction: column; 
+.about3{ 
   width: 100%;
   font-size: 1pc;
-  color: rgb(255, 255, 255);
+  color: rgb(165, 221, 151);
   margin-top: 1%;
-  padding-top: 0;
   margin-bottom: 0;
-  font-family: 'Courier New', Courier, monospace;  
+  font-family: lakeshore;  
   margin-left: 0;
   justify-content: space-between;  
-
+  padding-top: 1%;
+  padding-left: 30%;
 }
 .links{
   list-style-type: none;
@@ -101,7 +97,7 @@ html{
   padding-top: .3%;
   padding-bottom: .1%;
   margin-left: 20%;
-  margin-top: 10%;
+  margin-top: 2%;
   width: 45.7%;
 
 }
@@ -196,15 +192,12 @@ html{
   overflow: hidden;
 }
 .about4 {
-
-  display: flex;
-  flex-direction: column; 
   width: 100%;
   font-size: 1pc;
-  color: rgb(255, 255, 255);
+  color: rgb(165, 221, 151);
   margin-top: 1%;
   margin-bottom: 0;
-  font-family: 'Courier New', Courier, monospace;  
+  font-family: lakeshore;  
   margin-left: 0;
   justify-content: space-between;  
   animation: animated-about4 2s steps(29,end) 1s 1 normal both,
@@ -212,6 +205,9 @@ html{
   animation-delay: 13s;
   white-space: nowrap;
   overflow: hidden; 
+  padding-top: 1%;
+  padding-left: 26%;
+  padding-bottom: 2%;
 }
 @keyframes animated-about4{
   from{width: 0;}
