@@ -25,16 +25,14 @@
 }
 
 .frame{
+  position: fixed;
   width: 50%;
   height: 75%;
-  margin-left: 25%;
-  padding-bottom: 25%;
-  padding-top: 2%;
   margin-top: 7%;
+  margin-left: 25%;
 }
 .al{
     text-decoration: none;
-    height: 20%;
     color: rgb(255, 255, 255);
     margin-top: -47%;
     padding-top: 0;
@@ -48,7 +46,7 @@
   border-right: solid 10px rgb(255, 255, 255);
   white-space: nowrap;
   overflow: hidden;    
-  font-size: 25px;
+  font-size: 1pc;
   color: rgb(255, 255, 255);
   background: none;
 }
@@ -62,8 +60,8 @@ html{
 .about{
     display: flex;
     flex-direction: column; 
-    width: 80%;
-    font-size: 1.5pc;
+    width: 100%;
+    font-size: 1pc;
     color: rgb(255, 255, 255);
     margin-top: 0;
     padding-top: 0;
@@ -76,8 +74,8 @@ html{
 .about2{
   display: flex;
   flex-direction: column; 
-  width: 80%;
-  font-size: 1.5pc;
+  width: 100%;
+  font-size: 1pc;
   color: rgb(255, 255, 255);
   margin-top: 0;
   padding-top: 0;
@@ -90,8 +88,8 @@ html{
 .about3{
   display: flex;
   flex-direction: column; 
-  width: 80%;
-  font-size: 1.5pc;
+  width: 100%;
+  font-size: 1pc;
   color: rgb(255, 255, 255);
   margin-top: 0;
   padding-top: 0;
@@ -106,7 +104,6 @@ html{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-left: -5%;
 }
 
 .resume-img{
@@ -147,12 +144,13 @@ html{
 }
 
 .linkslist{
+  position: fixed;
   padding-top: .1%;
   padding-bottom: .1%;
   background-color: white;
-  width: 50%;
-  margin-left: 25%;
-  margin-top: -40%;
+  width: 40%;
+  margin-left: 3%;
+  margin-top: 12%;
 }
 
 .email{
@@ -178,7 +176,6 @@ html{
 
 /* Animation */
 .about {
-  padding-top: 2%;
   animation: animated-about 2s steps(29,end) 1s 1 normal both,
   animated-cursor 600ms steps(29,end) infinite;
   animation-delay: 3s;
@@ -187,7 +184,6 @@ html{
 }
 
 .about2{
-  padding-top: 2%;
   animation: animated-about2 2s steps(29,end) 1s 1 normal both,
   animated-cursor 600ms steps(29,end) infinite;
   animation-delay: 6s;
@@ -196,7 +192,6 @@ html{
   overflow: hidden;
 }
 .about3{
-  padding-top: 2%;
   animation: animated-about3 2s steps(29,end) 1s 1 normal both,
   animated-cursor 600ms steps(29,end) infinite;
   animation-delay: 9s;
@@ -208,11 +203,10 @@ html{
 
   display: flex;
   flex-direction: column; 
-  width: 80%;
-  font-size: 1.5pc;
+  width: 100%;
+  font-size: 1pc;
   color: rgb(255, 255, 255);
   margin-top: 0;
-  padding-top: 2%;
   margin-bottom: 0;
   font-family: 'Courier New', Courier, monospace;  
   margin-left: 0;
