@@ -28,7 +28,7 @@
   width: 100%;
   margin-top: 7%;
   margin-left: 25%;
-  
+  animation: frame 0s;
 }
 .al{
     text-decoration: none;
@@ -98,6 +98,13 @@ html{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  background-color: white;
+  padding-top: .2%;
+  padding-bottom: .1%;
+  margin-left: 0%;
+  margin-top: -15%;
+  width: 45.7%;
+
 }
 
 .resume-img{
@@ -137,15 +144,12 @@ html{
 
 }
 
-.linkslist{
+/* .linkslist{
   padding-top: .1%;
   padding-bottom: .1%;
-  background-color: white;
-  width: 40%;
   margin-top: -17%;
-  padding-left: -3%;
-  margin-left: 4%;
-}
+  height: 20%;
+} */
 
 .email{
   font-family: airstreamregular;
@@ -230,6 +234,11 @@ html{
 @keyframes animated-text{
   from{width: 0;}
   to{width: 50%;}
+}
+
+@keyframes frame{
+  from{visibility: visible;}
+  to{visibility: hidden;}
 }
 
 /* cursor animations */
