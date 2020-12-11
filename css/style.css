@@ -186,7 +186,10 @@ p {
 }
 
 
-
+.email{
+  text-decoration: none;
+  color: white;
+}
 .name {
   border: 0;
   background: none;
