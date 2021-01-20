@@ -1,0 +1,22 @@
+.title{
+    font-size: 3em;
+    border-bottom:2px solid red;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+span{
+    display: block;
+}
+.certs{
+    display: inline-flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+img{
+    width: 23%;
+}
