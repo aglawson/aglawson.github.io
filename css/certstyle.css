@@ -1,13 +1,30 @@
+html{
+    background-color: black;
+}
+body{
+    color: white;
+}
 .title{
     font-size: 3em;
     border-bottom:2px solid red;
-    text-align: center;
+    text-align: left;
+    padding-left: 2%;
+    letter-spacing: 10;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-
+    padding-bottom: 10px;
 }
 
-
+.projects {
+    font-size: 3em;
+    border-bottom:2px solid red;
+    text-align: left;
+    padding-left: 0;
+    letter-spacing: 15;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
 span{
     display: block;
 }
@@ -31,7 +48,32 @@ img{
 }
 
 .proj {
-    display: flexbox;
-    margin-left: 12.5%;
-    
+    margin-left: 11%;
 }
+.projDescrip {
+    background-color: rgb(199, 199, 199);
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 75%;
+    margin-left: 11%;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+    color: rgb(100, 100, 100);
+}
+ul{
+    list-style: none;    
+}
+
+.projTitle::after {
+  content: '';
+  width: 500px;
+  display: block;
+  background: rgb(255, 0, 0);
+  height: 1px;
+  margin: 27px auto;
+  line-height: 1;
+}
+
