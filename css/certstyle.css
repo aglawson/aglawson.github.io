@@ -22,3 +22,16 @@ img{
     max-width: 32%;
     max-height: 32%;
 }
+
+.projTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.proj {
+    display: flexbox;
+    margin-left: 12.5%;
+    
+}
