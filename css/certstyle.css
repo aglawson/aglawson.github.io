@@ -41,8 +41,8 @@ span{
 }
 
 img{
-    max-width: 32%;
-    max-height: 32%;
+    width: 32%;
+    height: 32%;
 }
 
 .projTitle {
